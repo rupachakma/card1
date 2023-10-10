@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    
+    
+}
+
+.container {
+    background-color:whitesmoke;
+    height:350px;
+    width:600px;
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    margin-left:400px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card_img{
+    height:350px;
+    width:300px;
+    object-fit:cover;
+}
+
+.about {
+    margin-top:20px;
+    margin-left:25px;
+    margin-right:25px;
+
+}
+.title{
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.dsc{
+    margin-bottom: 15px;
+    font-size:100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.price{
+    margin-top:10px;
+    margin-bottom:10px;
+    display: flex;
+    
+}
+
+.price h5{
+    margin-top:5px;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+.btn{
+    background-color: green;
+    border-radius: 10px;
+    padding:5px;
+    border:none;  
+    color:white;
+    margin-right:70px;
+}
